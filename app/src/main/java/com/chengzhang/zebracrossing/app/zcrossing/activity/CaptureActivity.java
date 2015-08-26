@@ -25,7 +25,6 @@ import java.io.IOException;
 import java.util.Vector;
 
 
-;
 
 /**
  * Initial the camera

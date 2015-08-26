@@ -61,11 +61,11 @@ final class CameraConfigurationManager {
         screenResolutionCamera.x = screenResolution.x;
         screenResolutionCamera.y = screenResolution.y;
         // preview size is always something like 480*320, other 320*480
-        if(screenResolution.x < screenResolution.y){
+        if (screenResolution.x < screenResolution.y) {
             screenResolutionCamera.x = screenResolution.y;
             screenResolutionCamera.y = screenResolution.x;
         }
-        cameraResolution = getCameraResolution(parameters,screenResolutionCamera);
+        cameraResolution = getCameraResolution(parameters, screenResolutionCamera);
         //cameraResolution = getCameraResolution(parameters, screenResolution);
         Log.d(TAG, "Camera resolution: " + screenResolution);
     }
